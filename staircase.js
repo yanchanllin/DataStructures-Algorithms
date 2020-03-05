@@ -1,5 +1,5 @@
 
-// Consider a staircase of size :
+/* Consider a staircase of size :
 
    #
   ##
@@ -44,7 +44,7 @@ Sample Output
 Explanation
 
 The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of n= 6.
-
+*/
 
 // Complete the staircase function below.
 function staircase(n) {
