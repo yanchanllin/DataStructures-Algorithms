@@ -49,8 +49,10 @@ The staircase is right-aligned, composed of # symbols and spaces, and has a heig
 // Complete the staircase function below.
 function staircase(n) {
   
- for(var i = 1; i<=n; i++){
+ for(var i = 1; i <= n; i++){
      console.log(" ".repeat(n-i) + "#".repeat(i))
+               //space.repeat(6-1) + "#".repeat(1)
+               //Thus 5 left spaces adding # for one time.
  }   
 }
 
