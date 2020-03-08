@@ -46,7 +46,7 @@ Explanation
 The initial doubly linked list is: 1<-> 3<-> 4 <->10 <-> Null.
 
 The doubly linked list after insertion is: 1<-> 3<-> 4<-> 5 <->10 <-> Null
-/*
+*/
 
 function sortedInsert(head, data) {
     var cur = head
