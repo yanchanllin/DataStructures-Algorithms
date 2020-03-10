@@ -24,7 +24,7 @@ Start at the head, swap its prev/ next nodes.
 
 
 function reverse(head) {
-    let node = head;
+    let node = head;  //node or current 
 
     if(!head) {return null}
 
