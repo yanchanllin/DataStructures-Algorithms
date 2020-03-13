@@ -20,7 +20,6 @@ Input:
 0 0 0 0 0 0
 
 */
-
 function hourglassSum(arr) {
     let sums = [];
         for(let row = 0; row <= 3; row++) {
