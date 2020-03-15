@@ -49,6 +49,5 @@ function abbreviation(a, b) {
     seen[key] = result;
     return result;
 
-    return abbreviation(a,b)
-       
+    return abbreviation(a,b)       
 }
