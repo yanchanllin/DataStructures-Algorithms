@@ -4,14 +4,13 @@ Reverse a doubly linked list.
 The main thing to consider is that we need to swap elements on opposite ends of the linked list.
 Basically the values of each node's previous and nextNode have been swapped. 
 Start at the head, swap its prev/ next nodes. 
-*/
+
 
 Reverse a doubly linked list. 
 The main thing to consider is that we need to swap elements on opposite ends of the linked list.
 The values of each node's previous and nextNode have been swapped. 
 Start at the head, swap its prev/ next nodes. 
 
-/*
  * For your reference:
  *
  * DoublyLinkedListNode {
