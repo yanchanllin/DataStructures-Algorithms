@@ -1,0 +1,28 @@
+function camelcase(s) {
+    let count = 1
+    for(let i=0; i<s.length;i++){
+      if(s[i] == s[i].toUpperCase())
+           count++
+    }
+    return count
+}
+
+//count start = 1, count = 1 
+//go through each word to find toUpperCase(), count +=1,return count.
+
+/*Sample Input
+saveChangesInTheEditor
+
+Sample Output
+5
+
+Explanation:
+
+String  contains five words:
+
+1save
+2Changes
+3In
+4The
+5Editor
+*/
