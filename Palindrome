@@ -1,9 +1,9 @@
 var isPalindrome = function(x) {
 
     if(x < 0) return false;
-    x += "";
+    x += "";       # turn x into string 
     let i = 0; 
-    let j = x.length - 1;
+    let j = x.length - 1;   # number.length-1 is the last index in the array number 
     
     while(i < j){
         if(x[i] !== x[j]) return false;
