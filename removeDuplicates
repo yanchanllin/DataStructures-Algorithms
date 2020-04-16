@@ -10,7 +10,8 @@ var removeDuplicates = function(nums) {
     return nums.length;
 }
 
-/*Example 1:
+/*Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
+Example 1:
 
 Given nums = [1,1,2],
 
