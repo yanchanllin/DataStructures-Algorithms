@@ -1,0 +1,22 @@
+var containsDuplicate = nums=>
+    nums.length!=[...new Set(nums)].length      
+    
+   // Set object lets you store unique values of any type, whether primitive values or object references.
+   //Set objects are collections of values. You can iterate through the elements of a set in insertion order. 
+    //A value in the Set may only occur once; it is unique in the Set's collection.
+    
+    
+/* Given an array of integers, find if the array contains any duplicates.
+
+Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
+
+Example 1:
+
+Input: [1,2,3,1]
+Output: true
+
+Example 2:
+
+Input: [1,2,3,4]
+Output: false
+*/
