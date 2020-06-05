@@ -1,3 +1,23 @@
+function sortedInsert(head, data) {
+    var cur = head
+    var newNode = new DoublyLinkedListNode(data)
+
+    if (data < cur.data) {
+        head.prev = newNode
+        newNode.next = head
+        return newNode
+    }
+
+    while (cur.next && (data > cur.next.data))
+        cur = cur.next
+
+    newNode.next = cur.next
+    newNode.prev = cur.next
+    cur.next = newNode
+
+    return head
+}
+
 /*
 Given a reference to the head of a doubly-linked list and an integer, , create a new DoublyLinkedListNode object having data value  and insert it into a sorted linked list while maintaining the sort.
 
@@ -48,22 +68,3 @@ The initial doubly linked list is: 1<-> 3<-> 4 <->10 <-> Null.
 The doubly linked list after insertion is: 1<-> 3<-> 4<-> 5 <->10 <-> Null
 */
 
-function sortedInsert(head, data) {
-    var cur = head
-    var newNode = new DoublyLinkedListNode(data)
-
-    if (data < cur.data) {
-        head.prev = newNode
-        newNode.next = head
-        return newNode
-    }
-
-    while (cur.next && (data > cur.next.data))
-        cur = cur.next
-
-    newNode.next = cur.next
-    newNode.prev = cur.next
-    cur.next = newNode
-
-    return head
-}
