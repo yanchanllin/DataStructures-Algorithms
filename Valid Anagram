@@ -2,7 +2,7 @@ var isAnagram = function(s, t){
 return s.split('').sort().join('') == t.split('').sort().join('');
 }
 
-another solution:
+Another solution:
 var isAnagram = function(s, t){
     // Convert Strings to Arrays using spread operators
     return [...s].sort().join('') === [...t].sort().join('');
