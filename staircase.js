@@ -19,10 +19,6 @@ Input Format
 
 A single integer, , denoting the size of the staircase.
 
-Constraints
-
- .
-
 Output Format
 
 Print a staircase of size  using # symbols and spaces.
