@@ -36,7 +36,6 @@ Sample Input
 6 
 
 Sample Output
-
      #
     ##
    ###
