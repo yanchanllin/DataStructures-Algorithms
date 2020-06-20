@@ -1,6 +1,5 @@
 
 /* Consider a staircase of size :
-
    #
   ##
  ###
@@ -46,7 +45,6 @@ Explanation
 The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of n= 6.
 */
 
-// Complete the staircase function below.
 function staircase(n) {
   
  for(var i = 1; i <= n; i++){
