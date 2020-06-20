@@ -30,11 +30,11 @@ Output Format
 
 Print a staircase of size  using # symbols and spaces.
 
-Note: The last line must have  spaces in it.
+Note: The last line must have spaces in it.
 
 Sample Input
-
 6 
+
 Sample Output
 
      #
