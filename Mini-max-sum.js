@@ -1,5 +1,4 @@
 function miniMaxSum(arr) {
-
     let totals = [];
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
     for (let i = 0; i < arr.length; i++) {
