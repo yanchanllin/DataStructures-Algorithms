@@ -22,7 +22,6 @@ Return the maximum amount of splitted balanced strings.
  
 
 Example 1:
-
 Input: s = "RLRRLLRLRL"
 Output: 4
 Explanation: s can be split into "RL", "RRLL", "RL", "RL", each substring contains same number of 'L' and 'R'.
