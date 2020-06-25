@@ -9,7 +9,6 @@ var isPerfectSquare = function(num) {
 Note: Do not use any built-in library function such as sqrt.
 
 Example 1:
-
 Input: 16
 Output: true
 Example 2:
