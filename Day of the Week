@@ -20,5 +20,4 @@ Output: "Sunday"
 Example 3:
 
 Input: day = 15, month = 8, year = 1993
-Output: "Sunday"
- */
+Output: "Sunday" */
