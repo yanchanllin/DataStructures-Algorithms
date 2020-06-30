@@ -3,8 +3,7 @@
     return days[new Date(year,month-1,day).getDay()]    //getDay() method returns the day of the week for the specified date according to local time, where 0 represents Sunday.
 };
 
-/*
-Given a date, return the corresponding day of the week for that date.
+/*Given a date, return the corresponding day of the week for that date.
 
 The input is given as three integers representing the day, month and year respectively.
 
