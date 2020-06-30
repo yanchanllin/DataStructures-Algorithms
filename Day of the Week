@@ -17,7 +17,7 @@ Example 2:
 
 Input: day = 18, month = 7, year = 1999
 Output: "Sunday"
-Example 3:
 
+Example 3:
 Input: day = 15, month = 8, year = 1993
 Output: "Sunday" */
