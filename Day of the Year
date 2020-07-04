@@ -17,7 +17,7 @@ function daysInMonth(year, month) {
 };
 
 //split the days and months year numbers and map throught it parseInt, 
-   //helper function get monthindays, helper function getdaysin month
+ //helper function get monthindays, helper function getdaysin month
 //add them together 
 /*Given a string date representing a Gregorian calendar date formatted as YYYY-MM-DD, return the day number of the year.
 
