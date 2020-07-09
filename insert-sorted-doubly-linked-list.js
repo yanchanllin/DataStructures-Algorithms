@@ -20,7 +20,6 @@ function sortedInsert(head, data) {
 and insert it into a sorted linked list while maintaining the sort.
 
 Function Description
-
 Complete the sortedInsert function in the editor below. It must return a reference to the head of your modified DoublyLinkedList.
 
 sortedInsert has two parameters:
