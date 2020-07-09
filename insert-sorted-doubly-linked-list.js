@@ -29,7 +29,6 @@ data: An integer denoting the value of the  field for the DoublyLinkedListNode y
 Note: Recall that an empty list (i.e., where ) and a list with one element are sorted lists.
 
 Input Format
-
 The first line contains an integer , the number of test cases.
 
 Each of the test case is in the following format:
