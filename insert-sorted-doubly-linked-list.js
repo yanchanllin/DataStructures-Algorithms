@@ -55,7 +55,6 @@ Sample Input
 10
 5
 Sample Output
-
 1 3 4 5 10
 Explanation
 
