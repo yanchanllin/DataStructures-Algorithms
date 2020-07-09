@@ -10,7 +10,6 @@ function sortedInsert(head, data) {
 
     while (cur.next && (data > cur.next.data))
         cur = cur.next
-
     newNode.next = cur.next
     newNode.prev = cur.next
     cur.next = newNode
