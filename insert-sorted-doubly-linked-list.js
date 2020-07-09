@@ -16,7 +16,8 @@ function sortedInsert(head, data) {
 
     return head
 }
-/*Given a reference to the head of a doubly-linked list and an integer, , create a new DoublyLinkedListNode object having data value  and insert it into a sorted linked list while maintaining the sort.
+/*Given a reference to the head of a doubly-linked list and an integer, , create a new DoublyLinkedListNode object having data value  
+and insert it into a sorted linked list while maintaining the sort.
 
 Function Description
 
