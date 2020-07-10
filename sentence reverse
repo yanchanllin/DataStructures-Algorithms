@@ -21,7 +21,6 @@ var reverseString = function(s) {
 
     return arr
   }
-
 # helper function - reverses the order of items in arr
 # please note that this is language dependent:
 # if are arrays sent by value, reversing should be done in place
