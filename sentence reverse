@@ -1,6 +1,6 @@
 Ruby Pseudocode:
 
-function reverseWords(arr):
+var reverseString = function(s) {
     # reverse all characters:
     n = arr.length
     mirrorReverse(arr, 0, n-1)
@@ -20,6 +20,7 @@ function reverseWords(arr):
                 wordStart = i
 
     return arr
+  }
 
 # helper function - reverses the order of items in arr
 # please note that this is language dependent:
