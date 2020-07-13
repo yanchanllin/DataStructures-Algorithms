@@ -26,7 +26,6 @@ Explanation: s can be split into "RL", "RRLL", "RL", "RL", each substring contai
 
 Example 2:
 Input: s = "RLLLLRRRLR"
-
 Output: 3
 Explanation: s can be split into "RL", "LLLRRR", "LR", each substring contains same number of 'L' and 'R'.
 
