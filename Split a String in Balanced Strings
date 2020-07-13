@@ -38,4 +38,4 @@ Example 4:
 Input: s = "RLRRRLLRLL"
 Output: 2
 Explanation: s can be split into "RL", "RRRLLRLL", since each substring contains an equal number of 'L' and 'R'*/
-    
+  
