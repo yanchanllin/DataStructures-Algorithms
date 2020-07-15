@@ -18,8 +18,7 @@ var calPoints = function(ops) {
     }
   }
     let sum = 0;
-    while(scores.length>0) sum += scores.pop()
-    
+    while(scores.length>0) sum += scores.pop()  
     return sum
 }; 
 
