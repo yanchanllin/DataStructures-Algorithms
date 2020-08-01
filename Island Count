@@ -26,7 +26,6 @@ var numIslands = function(grid) {
     }
     
     
-
 #Ruby psudocode:
 
 function getNumberOfIslands(binaryMatrix):
