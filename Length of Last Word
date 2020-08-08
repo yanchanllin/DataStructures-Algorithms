@@ -16,5 +16,4 @@ Note: A word is defined as a maximal substring consisting of non-space character
 
 Example:
 Input: "Hello World"
-Output: 5
-*/
+Output: 5*/
