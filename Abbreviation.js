@@ -46,6 +46,5 @@ function abbreviation(a, b) {
         : 'NO'
     seen[key] = result;
     return result;
-
     return abbreviation(a,b)       
 }
