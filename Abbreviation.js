@@ -7,7 +7,6 @@ Because we were able to successfully convert a to b, we print YES on a new line.
 function abbreviation(a, b) {
 
     const seen = {}
-
     // Make a key
     const key = `${a}1${b}`
     
